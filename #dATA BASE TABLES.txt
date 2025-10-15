@@ -1,0 +1,150 @@
+#dATA BASE TABLES:
+
+ITEM TABLE:-
+
+CREATE DATABASE GROCERY_SHOP;
+
+USE GROCERY_SHOP;
+
+CREATE TABLE ITEMS(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+CATEGORY VARCHAR(50),
+NAME_OF_ITEMS VARCHAR(100),
+QUANTITY FLOAT,
+PER_UNIT_PRICE DECIMAL(10, 2));
+
+INSERT INTO ITEMS (CATEGORY, NAME_OF_ITEMS, QUANTITY, PER_UNIT_PRICE) VALUES('Fruit','Apple',50,120.00),
+('Fruit','Banana',40,60.00),
+('Fruit','Grapes',35,150.00),
+('Fruit','Mango',25,200.00),
+('Fruit','Orange',45,100.00),
+('Fruit','Papaya',30,80.00),
+('Fruit','Pineapple',20,90.00),
+('Fruit','Watermelon',15,60.00),
+('Fruit','Strawberry',25,250.00),
+('Fruit','Pomegranate',20,180.00),
+('Vegetable','Tomato',50,40.00),
+('Vegetable','Potato',60,35.00),
+('Vegetable','Onion',55,45.00),
+('Vegetable','Cabbage',25,30.00),
+('Vegetable','Cauliflower',20,35.00),
+('Vegetable','Carrot',30,50.00),
+('Vegetable','Beans',20,60.00),
+('Vegetable','Capsicum',25,70.00),
+('Vegetable','Spinach',40,25.00),
+('Vegetable','Broccoli',15,90.00),
+('Dairy','Milk',100,60.00),
+('Dairy','Butter',40,250.00),
+('Dairy','Cheese',35,300.00),
+('Dairy','Yogurt',50,80.00),
+('Dairy','Paneer',25,200.00),
+('Dairy','Ghee',30,500.00),
+('Dairy','Cream',20,150.00),
+('Dairy','Lassi',30,50.00),
+('Dairy','Ice Cream',40,120.00),
+('Dairy','Curd',45,70.00),
+('Bakery','Bread',60,40.00),
+('Bakery','Cake',25,300.00),
+('Bakery','Bun',50,25.00),
+('Bakery','Muffin',30,60.00),
+('Bakery','Donut',30,70.00),
+('Bakery','Cookies',40,80.00),
+('Bakery','Croissant',20,90.00),
+('Bakery','Brownie',25,100.00),
+('Bakery','Rusk',35,60.00),
+('Bakery','Cupcake',20,75.00),
+('Beverages','Tea',40,200.00),
+('Beverages','Coffee',35,300.00),
+('Beverages','Green Tea',20,250.00),
+('Beverages','Soft Drink',60,40.00),
+('Beverages','Juice',45,80.00),
+('Beverages','Energy Drink',20,120.00),
+('Beverages','Soda',50,35.00),
+('Beverages','Coconut Water',25,70.00),
+('Beverages','Lemonade',30,50.00),
+('Beverages','Water Bottle',100,20.00),
+('Snacks','Chips',60,30.00),
+('Snacks','Popcorn',40,50.00),
+('Snacks','Biscuits',70,40.00),
+('Snacks','Namkeen',50,80.00),
+('Snacks','Mixture',45,70.00),
+('Snacks','Nachos',30,90.00),
+('Snacks','Chocolates',60,120.00),
+('Snacks','Candy',100,10.00),
+('Snacks','Cake Roll',25,60.00),
+('Snacks','Wafers',50,40.00),
+('Grains','Rice',80,70.00),
+('Grains','Wheat Flour',60,50.00),
+('Grains','Maida',40,45.00),
+('Grains','Besan',30,60.00),
+('Grains','Poha',35,55.00),
+('Grains','Suji',30,40.00),
+('Grains','Oats',25,120.00),
+('Grains','Corn Flour',20,80.00),
+('Grains','Dalia',25,50.00),
+('Grains','Barley',15,90.00),
+('Pulses','Toor Dal',40,120.00),
+('Pulses','Moong Dal',35,130.00),
+('Pulses','Chana Dal',30,110.00),
+('Pulses','Masoor Dal',25,100.00),
+('Pulses','Urad Dal',20,140.00),
+('Pulses','Rajma',30,150.00),
+('Pulses','Kabuli Chana',25,130.00),
+('Pulses','Green Peas',30,120.00),
+('Pulses','Black Gram',25,140.00),
+('Pulses','White Peas',20,110.00),
+('Spices','Salt',100,20.00),
+('Spices','Sugar',80,40.00),
+('Spices','Turmeric',40,80.00),
+('Spices','Red Chili Powder',30,100.00),
+('Spices','Coriander Powder',35,90.00),
+('Spices','Garam Masala',25,120.00),
+('Spices','Cumin Seeds',30,110.00),
+('Spices','Mustard Seeds',30,70.00),
+('Spices','Black Pepper',20,150.00),
+('Spices','Cardamom',15,300.00),
+('Personal Care','Soap',50,40.00),
+('Personal Care','Shampoo',40,120.00),
+('Personal Care','Toothpaste',45,80.00),
+('Personal Care','Toothbrush',60,50.00),
+('Personal Care','Hair Oil',30,150.00),
+('Personal Care','Face Wash',25,180.00),
+('Personal Care','Lotion',25,200.00),
+('Personal Care','Detergent',50,90.00),
+('Personal Care','Hand Wash',40,100.00),
+('Personal Care','Shaving Cream',20,140.00);
+
+Queries:
+
+1. TO SHOW THE ALL ITEMS:
+SELECT * FROM ITEMS;
+
+2. TO ADD A NEW ITEM:
+INSERT INTO ITEMS VALUE ();
+
+3. TO DELETE AN ITEM FROM THE TABLE:
+DELETE FROM ITEMS WHERE ID= ;
+
+4.Update quantity:
+UPDATE ITEMS
+SET QUANTITY_UNITS = 
+WHERE ID = ;
+
+5.Update price:
+UPDATE ITEMS
+SET PER_UNIT_PRICE = 75.00
+WHERE NAME_OF_ITEMS = 'Banana';
+
+# Connect to MySQL database
+
+conn = mysql.connector.connect(
+    host="localhost",      
+    user="root",           
+    password="",           
+    database="GROCERY_SHOP"
+)
+
+
+
+
+ 
