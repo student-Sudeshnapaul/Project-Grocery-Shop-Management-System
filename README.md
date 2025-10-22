@@ -1,5 +1,3 @@
----
-
 ````markdown
 # 🛒 Grocery Shop Management System (Streamlit + MySQL)
 
@@ -80,11 +78,6 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshots
-
-*Add screenshots or a short video demo here to showcase functionality.*
-
----
 
 ## 📜 License
 
@@ -93,6 +86,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 
-
-Would you like me to make this README **auto-style the GIF and screenshots** section (centered, responsive, dark/light theme friendly)? I can make it look great for GitHub presentation.
-```
