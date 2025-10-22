@@ -1,4 +1,3 @@
------
 
 ````markdown
 # Grocery Shop Management System (Streamlit App)
@@ -7,8 +6,8 @@
 
 A comprehensive grocery management system built with Streamlit and MySQL. This application provides a dual-interface for:
 
-1.  **Owners:** To manage inventory, track sales, and view customer data.
-2.  **Customers:** To purchase items and generate downloadable PDF invoices.
+* **Owners:** To manage inventory, track sales, and view customer data.
+* **Customers:** To purchase items and generate downloadable PDF invoices.
 
 ## Features
 
