@@ -1,5 +1,7 @@
+---
+
+````markdown
 # 🛒 Grocery Shop Management System (Streamlit + MySQL)
-# DBMS Project 
 
 <p align="center">
   <img src="DBMS.gif" alt="Project Demo" width="700"/>
@@ -57,21 +59,40 @@ A comprehensive **Grocery Management System** built with **Streamlit** and **MyS
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
-2️⃣ Install Dependencies
-bash
-Copy code
+````
+
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-3️⃣ Set Up Database
-Create a MySQL database (e.g., grocery_db).
+```
 
-Update your database credentials in the config.py or main app file.
+### 3️⃣ Set Up Database
 
-4️⃣ Run the Streamlit App
-bash
-Copy code
+* Create a MySQL database (e.g., `grocery_db`).
+* Update your database credentials in the `config.py` or main app file.
+
+### 4️⃣ Run the Streamlit App
+
+```bash
 streamlit run app.py
-📸 Screenshots
-Add screenshots or a short video demo here to showcase functionality.
+```
 
-📜 License
-This project is open-source and available under the MIT License.
+---
+
+## 📸 Screenshots
+
+*Add screenshots or a short video demo here to showcase functionality.*
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+
+
+Would you like me to make this README **auto-style the GIF and screenshots** section (centered, responsive, dark/light theme friendly)? I can make it look great for GitHub presentation.
+```
