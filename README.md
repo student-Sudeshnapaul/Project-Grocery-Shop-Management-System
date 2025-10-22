@@ -1,11 +1,9 @@
-Here is a complete `README.md` file for your GitHub repository, based on the code you provided.
-
-You can copy the text below, save it as `README.md` in your project's main folder, and upload it to GitHub.
-
 -----
 
 ````markdown
 # Grocery Shop Management System (Streamlit App)
+
+![Project Demo](DBMS.gif)
 
 A comprehensive grocery management system built with Streamlit and MySQL. This application provides a dual-interface for:
 
@@ -29,17 +27,6 @@ A comprehensive grocery management system built with Streamlit and MySQL. This a
 * **Live Inventory Update:** When a purchase is confirmed, the database is updated in real-time to reflect the new stock levels.
 * **PDF Invoice Generation:** Automatically generates a detailed PDF invoice (using FPDF) upon successful purchase.
 * **Download Bill:** A download button appears instantly, allowing the customer to save their bill.
-
-## 🖼️ Screenshots
-
-*(It is highly recommended to add screenshots of your app here)*
-
-| Owner Dashboard | Customer Portal |
-| :---: | :---: |
-|  |  |
-| **Top 5 Items Plot** | **Generated PDF Invoice** |
-|  |  |
-
 
 ## 🛠️ Technologies Used
 
