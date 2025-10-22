@@ -42,35 +42,16 @@ A comprehensive Grocery Management System built with Streamlit and MySQL, offeri
 
 💾 Download Bill: Instantly download the generated invoice as a PDF.
 
-🧰 Technologies Used
+## 🧰 Technologies Used
 
-Technology
-
-Purpose
-
-Python
-
-Core programming language
-
-Streamlit
-
-Interactive web UI framework
-
-MySQL
-
-Backend database (mysql-connector-python)
-
-Pandas
-
-Data manipulation and display
-
-Matplotlib
-
-Sales chart and data visualization
-
-FPDF (pyfpdf)
-
-PDF invoice generation
+| Technology | Purpose |
+| :--- | :--- |
+| **Python** | Core programming language |
+| **Streamlit** | Interactive web UI framework |
+| **MySQL** | Backend database (`mysql-connector-python`) |
+| **Pandas** | Data manipulation and display |
+| **Matplotlib** | Sales chart and data visualization |
+| **FPDF (`pyfpdf`)** | PDF invoice generation |
 
 🚀 Setup & Installation
 
