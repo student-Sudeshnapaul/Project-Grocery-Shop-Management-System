@@ -57,10 +57,6 @@ A comprehensive Grocery Management System built with Streamlit and MySQL, offeri
 
 1️⃣ Clone the Repository
 
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-cd your-repository-name
-
-
 2️⃣ Install Dependencies
 
 (Make sure you have a requirements.txt file)
